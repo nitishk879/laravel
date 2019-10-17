@@ -24,6 +24,7 @@ Route::get('/contact', 'WelcomeController@contact');
 
 Route::resource('posts', 'PostController');
 Route::resource('services', 'ServiceController');
+Route::resource('patwari', 'PatwariesController');
 Route::resource('events', 'EventsController');
 
 Route::resource('brands', 'BrandController');
